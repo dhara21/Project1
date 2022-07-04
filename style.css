@@ -15,7 +15,7 @@ body
 }
 .navbar
 {
-    background-image: linear-gradient(to right, #545352, #110e05);
+    background-image: linear-gradient(to right,#539bbf, #4060b8);
     padding: 0 !important;
 }
 .navbar-brand img
@@ -72,50 +72,36 @@ body
     font-size: 20px;
 }
 .Welcome{
-    font-family: 'Lobster', cursive;
+    font-family: 'Arima';
+    color: #4060b8; 
 }
-/*-------------About us------------*/
-#About-Us{
-    background: #f8f9fa;
-    padding-bottom: 50px;
-    padding-top: 100px;
-}
-.about-info{
-    font-family: "Merriweather";
-    font-size: 20px;
-    color: #110e05
-}
-.about-info2{
-    font-family: "Merriweather";
-    font-size: 20px;
-    color: #110e05;
-}
-.about-title{
-    text-align: center;
-}
+
+
+/*--------Gallery-------------*/
 .column {
     float: left;
     width: 33.33%;
     padding: 5px;
 }
-  
+
 /* Clear floats after image containers */
 .row1::after {
     content: "";
     clear: both;
     display: table;
 }
-/*--------Gallery-------------*/
+
 .Gallery{
     text-align: center;
     margin-top: 3%
 }
-/* ------------Service section------------ */
+
+/* ------------Courses------------ */
 .service-img{
     width:100px;
     margin-top:20px;
 }
-#Services{
+#Courses{
     padding: 40px 0;
     background: #f8f9fa;
     padding-bottom: 10px;
@@ -124,7 +110,7 @@ body
 .title{
     text-align: center;
 }
-.col-services {
+.col-courses {
     float: left;
     width: 33.33%;
     padding: 18px;
@@ -132,8 +118,16 @@ body
 .info{
     font-family: "Merriweather";
     font-size: 15px;
-    color: #110e05
-} 
+    color: #110e05;
+}
+.rate{
+    font-family: "Merriweather";
+    font-size: 15px;
+    color: #110e05;
+    text-align: left;
+    display: inline-block;
+}
+
 /* Clear floats after image containers */
 .row-ser::after {
     content: "";
@@ -143,76 +137,34 @@ body
 .row-ser{
     column-gap: 25px;
 }
+.c-name{
+    text-align: center;
+}
 
-/*------------ Stylists-------------*/
-#stylists{
-    background: #fcfaf6;
-    padding-bottom: 25px;
-    padding-top: 100px;
+.row{
+    text-align: center;
 }
-.row-sty::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.row-sty{
-    column-gap: 40px;
-}
-.sty-name{
-    padding-top: 10px;
-    font-family: "Merriweather";
-    font-size: 24px;
-    color: #110e05;
-    font-weight: bold;
-}
-.sty-ser{
-    font-family: "Merriweather";
-    font-size: 18px;
-    font-weight: bold;
-    color: #110e05;
-}
-/*-------Address---------*/
-.col-apt{
-    float: left;
-    width: 33.33%;
-    padding: 10px;
-}
-.row-con::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.apt{
-    font-family: "Merriweather";
-    font-size: 20px;
-    color: #110e05
-}
-.a-tit{
-    font-family: "Merriweather";
-    font-size: 24px;
-    color: #110e05;
-    font-weight: bold;
-}
-#Contact-us{
+/*--------------Pool Hours--------------*/
+#PoolHours{
     padding: 40px 0;
     background: #f8f9fa;
     padding-bottom: 10px;
     padding-top: 100px;
 }
-
-/* Appointment--------*/
-#Appt{
-    padding: 40px 0;
-    background: #fcfaf6;
-    padding-bottom: 20x;
-    padding-top: 100px;
+.poolH-::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-
-footer {
+.p-time{
     text-align: center;
-    background-image: linear-gradient(to right, #545352, #110e05);
-    color: white;
 }
-.foot{
-    font-size: small;
+.hourtit{
+    text-align: center;
+}
+
+.poolH{
+    border: 3px solid #4060b8;
+    width: 900px;
+    margin:auto;
 }
